@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Share Your Story | Story Mode</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <header>
+    <div class="navbar">
+      <h1 class="logo">Story Mode</h1>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="#">Read Stories</a>
+        <a href="share.html">Share Story</a>
+        <a href="#">About</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="form-container">
+    <h2>📝 Share Your Story</h2>
+    <p>Your voice matters. Share your experience anonymously and help others feel seen.</p>
+
+    <form action="#" method="post">
+      <label for="name">Pseudonym or First Name (optional)</label>
+      <input type="text" id="name" name="name" placeholder="e.g. Alex" />
+
+      <label for="pronouns">Pronouns</label>
+      <select id="pronouns" name="pronouns" required>
+        <option value="" disabled selected>Select your pronouns</option>
+        <option value="she/her">She/Her</option>
+        <option value="he/him">He/Him</option>
+        <option value="they/them">They/Them</option>
+        <option value="custom">Custom</option>
+      </select>
+
+      <label for="age">Age (optional)</label>
+      <input type="number" id="age" name="age" min="10" max="100" />
+
+      <label for="country">Country</label>
+      <input type="text" id="country" name="country" required />
+
+      <label for="tags">Tags (separate with commas)</label>
+      <input type="text" id="tags" name="tags" placeholder="#genderbias, #support" />
+
+      <label for="story">Your Story</label>
+      <textarea id="story" name="story" rows="8" required placeholder="Start writing your story here..."></textarea>
+
+      <label class="checkbox-label">
+        <input type="checkbox" required /> I agree to the community guidelines.
+      </label>
+
+      <button type="submit" class="cta-button">Submit Story</button>
+    </form>
+  </main>
+
+  <footer>
+    <p>© 2025 Story Mode. All rights reserved.</p>
+  </footer>
+</body>
+</html>
