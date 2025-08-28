@@ -107,7 +107,7 @@ export default function Home() {
                     <div className="absolute inset-0 bg-gradient-to-r from-red-500/20 to-orange-500/20 blur-3xl" />
                     <h1 className="text-6xl md:text-8xl lg:text-9xl font-bold text-center relative">
                       <span className="text-foreground">Equal</span>
-                      <span className="text-transparent bg-clip-text bg-gradient-to-r from-red-400 to-orange-400">Hub</span>
+                      <span className="text-transparent bg-clip-text bg-gradient-to-r from-red-400 to-orange-400">Rise</span>
                     </h1>
                   </div>
                 </motion.div>
